@@ -1,0 +1,10 @@
+H:\פרויקט\פרויקט\obj\Debug\net7.0\SERVER.csproj.AssemblyReference.cache
+H:\פרויקט\פרויקט\obj\Debug\net7.0\SERVER.GeneratedMSBuildEditorConfig.editorconfig
+H:\פרויקט\פרויקט\obj\Debug\net7.0\SERVER.AssemblyInfoInputs.cache
+H:\פרויקט\פרויקט\obj\Debug\net7.0\SERVER.AssemblyInfo.cs
+H:\פרויקט\פרויקט\obj\Debug\net7.0\SERVER.csproj.CoreCompileInputs.cache
+H:\פרויקט\פרויקט\obj\Debug\net7.0\SERVER.MvcApplicationPartsAssemblyInfo.cs
+H:\פרויקט\פרויקט\obj\Debug\net7.0\SERVER.MvcApplicationPartsAssemblyInfo.cache
+H:\פרויקט\פרויקט\obj\Debug\net7.0\SERVER.dll
+H:\פרויקט\פרויקט\obj\Debug\net7.0\refint\SERVER.dll
+H:\פרויקט\פרויקט\obj\Debug\net7.0\SERVER.pdb

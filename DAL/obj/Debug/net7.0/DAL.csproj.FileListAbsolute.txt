@@ -1,0 +1,14 @@
+H:\פרויקט\DAL\bin\Debug\net7.0\DAL.deps.json
+H:\פרויקט\DAL\bin\Debug\net7.0\DAL.dll
+H:\פרויקט\DAL\bin\Debug\net7.0\DAL.pdb
+H:\פרויקט\DAL\obj\Debug\net7.0\DAL.csproj.AssemblyReference.cache
+H:\פרויקט\DAL\obj\Debug\net7.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+H:\פרויקט\DAL\obj\Debug\net7.0\DAL.AssemblyInfoInputs.cache
+H:\פרויקט\DAL\obj\Debug\net7.0\DAL.AssemblyInfo.cs
+H:\פרויקט\DAL\obj\Debug\net7.0\DAL.csproj.CoreCompileInputs.cache
+H:\פרויקט\DAL\obj\Debug\net7.0\DAL.dll
+H:\פרויקט\DAL\obj\Debug\net7.0\refint\DAL.dll
+H:\פרויקט\DAL\obj\Debug\net7.0\DAL.pdb
+H:\פרויקט\DAL\obj\Debug\net7.0\ref\DAL.dll
+H:\פרויקט\DAL\bin\Debug\net7.0\DAL.runtimeconfig.json
+H:\פרויקט\DAL\obj\Debug\net7.0\DAL.genruntimeconfig.cache

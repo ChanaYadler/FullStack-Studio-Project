@@ -1,0 +1,12 @@
+H:\פרויקט\BL\bin\Debug\net7.0\BL.deps.json
+H:\פרויקט\BL\bin\Debug\net7.0\BL.dll
+H:\פרויקט\BL\bin\Debug\net7.0\BL.pdb
+H:\פרויקט\BL\obj\Debug\net7.0\BL.csproj.AssemblyReference.cache
+H:\פרויקט\BL\obj\Debug\net7.0\BL.GeneratedMSBuildEditorConfig.editorconfig
+H:\פרויקט\BL\obj\Debug\net7.0\BL.AssemblyInfoInputs.cache
+H:\פרויקט\BL\obj\Debug\net7.0\BL.AssemblyInfo.cs
+H:\פרויקט\BL\obj\Debug\net7.0\BL.csproj.CoreCompileInputs.cache
+H:\פרויקט\BL\obj\Debug\net7.0\BL.dll
+H:\פרויקט\BL\obj\Debug\net7.0\refint\BL.dll
+H:\פרויקט\BL\obj\Debug\net7.0\BL.pdb
+H:\פרויקט\BL\obj\Debug\net7.0\ref\BL.dll
