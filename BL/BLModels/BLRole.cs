@@ -12,4 +12,5 @@ public partial class BLRole
 
     public virtual ICollection<Worker> Workers { get; set; } = new List<Worker>();
 
+
 }

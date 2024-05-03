@@ -8,9 +8,15 @@ namespace SERVER.Controllers
     [ApiController]
     public class CustomerController : ControllerBase
     {
-        //[HttpGet]
-        //public Customer GetCustomer() {
-        //    return 
-        //}
+        IBLCustomer bl;
+        public CustomerController(BLManager bl)
+        {
+            this.bl = bl.BLCustomer;
+        }
+        [HttpGet]
+        public Customer GetCustomerById(string id)
+        {
+            return 
+        }
     }
 }
