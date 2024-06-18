@@ -7,8 +7,9 @@ using System.Threading.Tasks;
 
 namespace BL.BlApi
 {
-    internal interface IBLCustomer
+    public interface IBLCustomer
     {
+        public bool Type(string id);
         public Customer getALLDetails(string id);
         public bool addNewCustomer(BLCustomer customer);
         public Customer updateDetailsCustomer(BLCustomer customer);

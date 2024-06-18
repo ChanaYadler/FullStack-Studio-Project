@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace BL.BlApi
 {
-    internal interface IBLRole
+    public interface IBLRole
     {
         public List<Role> getDetailsById(string id);
         public Role updateDetailsRole(BLRole role);

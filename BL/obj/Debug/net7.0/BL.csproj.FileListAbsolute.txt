@@ -10,3 +10,8 @@ H:\פרויקט\BL\obj\Debug\net7.0\BL.dll
 H:\פרויקט\BL\obj\Debug\net7.0\refint\BL.dll
 H:\פרויקט\BL\obj\Debug\net7.0\BL.pdb
 H:\פרויקט\BL\obj\Debug\net7.0\ref\BL.dll
+H:\פרויקט\BL\bin\Debug\net7.0\BL.runtimeconfig.json
+H:\פרויקט\BL\bin\Debug\net7.0\DAL.dll
+H:\פרויקט\BL\bin\Debug\net7.0\DAL.pdb
+H:\פרויקט\BL\obj\Debug\net7.0\BL.csproj.CopyComplete
+H:\פרויקט\BL\obj\Debug\net7.0\BL.genruntimeconfig.cache

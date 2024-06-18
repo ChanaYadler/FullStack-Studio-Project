@@ -8,7 +8,7 @@ using AutoMapper;
 
 namespace BL
 {
-    internal class BLProfile : Profile
+    public class BLProfile : Profile
     {
         public BLProfile() {
             CreateMap<Meeting, BLMeeting>().ReverseMap();

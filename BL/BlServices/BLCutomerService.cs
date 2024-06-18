@@ -1,19 +1,25 @@
 ﻿using AutoMapper;
 using BL.BlApi;
+using DAL;
 using DAL.DalApi;
 using DAL.DalModels;
 
 namespace BL.BlServices
 {
-    internal class BLCutomerService : IBLCustomer
+    public class BLCutomerService : IBLCustomer
     {
         readonly IMapper mapper;
         ICustomer customerDal;
-
-        public BLCutomerService(ICustomer customerDal, IMapper mapper)
+        
+        public BLCutomerService(DalManager bl, IMapper mapper)
         {
-            this.customerDal = customerDal;
+            this.customerDal = bl.Customer;
             this.mapper = mapper;
+        }
+        public bool Type(string id)
+        {
+            if (getALLDetails(id)!=null) { return true; }
+            return false;
         }
         public bool addNewCustomer(BLCustomer customer)
         {

@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using BL.BlApi;
+using DAL;
 using DAL.DalApi;
 using DAL.DalModels;
 using System;
@@ -10,14 +11,14 @@ using System.Threading.Tasks;
 
 namespace BL.BlServices
 {
-    internal class BLMeetingService : IBLMeeting
+    public class BLMeetingService : IBLMeeting
     {
         readonly IMapper mapper;
         IMeeting MeetingDal;
 
-        public BLMeetingService(IMeeting MeetingDal, IMapper mapper)
+        public BLMeetingService(DalManager dl , IMapper mapper)
         {
-            this.MeetingDal = MeetingDal;
+            this.MeetingDal = dl.Meeting;
             this.mapper = mapper;
         }
         public bool addNewMeeting(BLMeeting meeting)

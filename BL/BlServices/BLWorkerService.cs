@@ -1,45 +1,45 @@
 ﻿using AutoMapper;
 using BL.BlApi;
+using DAL;
 using DAL.DalApi;
 using DAL.DalModels;
-using System;
-using System.Collections.Generic;
-using System.Data;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace BL.BlServices
 {
-    internal class BLWorkerService : IBLWorker
+    public class BLWorkerService : IBLWorker
     {
         readonly IMapper mapper;
         IWorker WorkerDAL;
 
-        public BLWorkerService(IWorker WorkerBL, IMapper mapper)
+        public BLWorkerService(DalManager dl, IMapper mapper)
         {
-            this.WorkerDAL = WorkerBL;
+            this.WorkerDAL = dl.Worker;
             this.mapper = mapper;
+        }
+        public bool Type(string id)
+        {
+            if (GetDetailsById(id) != null) { return true; }
+            return false;
         }
         public bool addNewWorker(BLWorker worker)
         {
             Worker Worker1 = mapper.Map<Worker>(worker);
             var w = WorkerDAL.addWorker(Worker1);
-            if(w ) return true;
+            if (w) return true;
             return false;
         }
 
         public bool deleteWorker(string id)
         {
             var w = WorkerDAL.removeWorker(id);
-            if(w) return true;
+            if (w) return true;
             return false;
 
         }
 
         public Worker GetDetailsById(string id)
         {
-            var w= WorkerDAL.GetWorkerById(id);
+            var w = WorkerDAL.GetWorkerById(id);
             return w;
         }
 

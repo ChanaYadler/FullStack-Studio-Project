@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using BL.BlApi;
+using DAL;
 using DAL.DalApi;
 using DAL.DalModels;
 using System;
@@ -10,14 +11,14 @@ using System.Threading.Tasks;
 
 namespace BL.BlServices
 {
-    internal class BLRoleService : IBLRole
+    public class BLRoleService : IBLRole
     {
         readonly IMapper mapper;
         IRole RoleDAL;
 
-        public BLRoleService(IRole RoleBL, IMapper mapper)
+        public BLRoleService(DalManager dl, IMapper mapper)
         {
-            this.RoleDAL = RoleBL;
+            this.RoleDAL = dl.Role;
             this.mapper = mapper;
         }
         public bool addNewRole(BLRole role)

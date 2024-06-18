@@ -7,8 +7,9 @@ using System.Threading.Tasks;
 
 namespace BL.BlApi
 {
-    internal interface IBLWorker
+    public interface IBLWorker
     {
+        public bool Type(string id);
         public Worker GetDetailsById(string id);
         public bool deleteWorker(string id);
         public bool addNewWorker(BLWorker worker);

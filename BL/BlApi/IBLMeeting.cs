@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace BL.BlApi
 {
-    internal interface IBLMeeting
+    public interface IBLMeeting
     {
         public List<Meeting> getDetailsById(string id);
         public bool addNewMeeting(BLMeeting meeting);
