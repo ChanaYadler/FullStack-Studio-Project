@@ -33,6 +33,15 @@ namespace DAL.DalServices
             }
             return meet;
         }
+        public List<Meeting> getMeetingsByIdOfWorker(string id)
+        {
+            List<Meeting> meet = new List<Meeting>();
+            foreach (var m in studioContext.Meetings)
+            {
+                if (m.WorkerId == id&& m.Date==DateTime.Now) { meet.Add(m); }
+            }
+            return meet;
+        }
 
         public bool ifAvailable(DateTime date)
         {
